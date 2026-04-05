@@ -1,1 +1,1 @@
-start  /b  pythonw  ".\app.py"
+start  /b  pythonw  "D:\files\using\Web\PC_A_screenshot_webserver_FF\app.py"
