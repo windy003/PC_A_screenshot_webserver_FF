@@ -48,7 +48,7 @@ class MainActivity : AppCompatActivity() {
 
     private var baseUrl = ""
     private var currentImages = mutableListOf<FileItem>()
-    private var sortDescending = true
+    private var sortDescending = false
 
     private val STORAGE_PERMISSION_CODE = 100
     private val PREFS_NAME = "ScreenshotViewerPrefs"
