@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Screenshot Viewer</string>
+    <!-- app_name 由 productFlavor (one/two) 的 resValue 提供 -->
 </resources>

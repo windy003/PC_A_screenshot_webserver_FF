@@ -13,13 +13,29 @@ android {
         minSdk 24
         targetSdk 34
         versionCode 1
-        versionName "2026/5/23-1"
+        versionName "2026/5/25-1"
     }
 
     buildTypes {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    flavorDimensions "version"
+    productFlavors {
+        one {
+            dimension "version"
+            applicationIdSuffix ".one"
+            versionNameSuffix "-one"
+            resValue "string", "app_name", "1-Screenshot Viewer"
+        }
+        two {
+            dimension "version"
+            applicationIdSuffix ".two"
+            versionNameSuffix "-two"
+            resValue "string", "app_name", "2-Screenshot Viewer"
         }
     }
 
